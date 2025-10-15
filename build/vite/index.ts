@@ -30,7 +30,9 @@ export function createVitePlugins() {
     UnoCSS(),
     progress(),
     PurgeIcons(),
-    ElementPlus({}),
+    ElementPlus({
+      exclude: [/RequirementDetail\.vue$/]
+    }),
     AutoImport({
       include: [
         /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
