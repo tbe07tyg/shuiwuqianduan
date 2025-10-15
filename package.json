@@ -160,7 +160,7 @@
   "homepage": "https://gitee.com/yudaocode/yudao-ui-admin-vue3",
   "web-types": "./web-types.json",
   "engines": {
-    "node": "18.x",
+    "node": "22.x",
     "pnpm": ">=8.6.0"
   }
 }
